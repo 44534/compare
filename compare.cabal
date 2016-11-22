@@ -9,7 +9,8 @@ license:             GPL-3
 license-file:        LICENSE
 author:              Clara Waldmann
 maintainer:          clara.waldmann@tum.de
--- copyright:           
+-- copyright:         
+homepage:            https://44534.github.io/compare/
 category:            Math
 build-type:          Simple
 extra-source-files:  ChangeLog.md
