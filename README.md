@@ -24,7 +24,7 @@ The following transformers have to be installed separately and available in `$PA
 * [spin](http://spinroot.com/spin/whatispin.html) - spin
 * [ltl2ba](http://www.lsv.ens-cachan.fr/~gastin/ltl2ba/) - ltl2ba
 * [ltl3ba](http://ltl3ba.sourceforge.net/) - ltl3ba
-* [GOAL](http://goal.im.ntu.edu.tw/wiki/doku.php#download) - goal
+* [GOAL](http://goal.im.ntu.edu.tw/wiki/doku.php#download)(`gc`) - goal
 * [spot](https://spot.lrde.epita.fr/)
     * autfilt
     * ltl2tgba
@@ -38,8 +38,9 @@ Additionally for some tools there are scripts in the `scripts` folder which have
 * `callspin.sh` - callspin
 * `callltl2ba.sh` - callltl2ba
 * `goal_ltl2nba.sh` - goal_ltl2nba
-* `goal_nbadpa.sh` - goal_nbadpa
+* `goal_nbadpa.sh` - goal_nba2dpa
 * `epsilon.sh` - epsilon
+* `rabinizer.sh` - rabinizer (change `$RAB` :path to rabinizer jar file)
 
 To run several instances of `GOAL` concurrently the following changes have to be made to the sources:
 
@@ -52,7 +53,7 @@ To run several instances of `GOAL` concurrently the following changes have to be
 
 The supported options are:
 ```
-> tlmaze -h
+> ltlmaze -h
 Compare LTL to omega-automata translations
 
 Usage: ltlmaze (--pattern (e | f | u | u2 | c1 | c2 | q | r | s) |
