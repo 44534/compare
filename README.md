@@ -1,5 +1,7 @@
 compare
 =======
+[![Build Status](https://travis-ci.org/44534/compare.svg?branch=master)](https://travis-ci.org/44534/compare)
+
 A library to compare LTL to omega-automata translators.
 Currently evaluation is restricted to LTL to parity automata translations.
 
