@@ -18,14 +18,12 @@ cabal-version:       >=1.10
 
 library
   exposed-modules: Transformer, Paths, Compare, 
-    -- EvaluatePatternResults, EvaluateCompareResults, 
-    ComCon, Small, Patterns, Pathtest, Options
+     ComCon, Small, Patterns, Pathtest, Options
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.8 && <4.9
     , omega-automata
     , ltl-syntax
-    -- , reducerabinpairs
     , transformers
     , process
     , process-extras
@@ -34,11 +32,7 @@ library
     , containers
     , fgl
     , temporary
-    , csv-table
     , csv
-    , Chart-cairo
-    , Chart
-    , easyplot
     , gnuplot
     , HaTeX
     , async
